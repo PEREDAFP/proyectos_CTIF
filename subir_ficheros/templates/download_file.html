@@ -1,0 +1,7 @@
+{% extends "base_template.html" %}
+
+{% block title %}{{ slug_title }}{% endblock %}
+
+{% block content %}
+    <a download href="{{ url_for('static', filename= fichero) }}">Tu fichero </a>
+{% endblock %}
